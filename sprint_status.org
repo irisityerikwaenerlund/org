@@ -1,0 +1,4 @@
+** OCT 13
+*** Team D
+- a lot of security issues still mainly multi tenant isolation in the core api
+

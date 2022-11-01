@@ -1,0 +1,17 @@
+* Sprint planning 94
+** MCC - Boris
+*** not sure how the images will end up in the cluster
+*** assumption - supply them with registry .tar file for use with the cluster designated airgapped registry.
+All openshift cluster already have an internal registry which is currently used.
+Has been tested in AWS cluster, has not been tested in an airgapped env.
+*** TODO send email to Benny about taking ownership over aws openshift install
+*** TODO book meeting with Ariel about:
+1) Will RH or Irisity add Iris+/innovi2 components to the registry? Will the internal openshift registry be used definetely? Or will there be some other registry?
+2) Are PV created before we are deploying innovi? All SSD or layered? Postgres needs to be 'RWM' Assumption:
+   The data layer is taking care of the DR capabilities.
+3) What is the status of having RH onprem crew installing a testing env for us (cloud vm's or local-hw)?
+4) What is the client expecting in terms of system availability
+** MCC - Anders
+** air-gapped regular installer and/or icon installer
+Is it possible to merge the icon and regular branch?
+*** TODO air gapped and icon installer, will it ever be merged? @Boris @Evgeny
